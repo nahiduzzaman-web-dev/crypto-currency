@@ -1,0 +1,21 @@
+.container-fluid{
+    background-color: #f5f5dc;
+}
+.homePage{
+    height: 80vh;
+    flex-direction: column;
+    font-family: monospace;
+}
+.explore-btn{
+    border: none;
+    padding: 7px 20px;
+    margin-top: 10px;
+    background-color: #6495ed;
+    color: #ffffff;
+}
+.crypto-coin{
+    color: tomato;
+}
+.explore-btn:hover{
+    background-color: #3c74db;
+}

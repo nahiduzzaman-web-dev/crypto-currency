@@ -1,0 +1,23 @@
+.container-fluid{
+    position: sticky;
+    top: 0;
+    padding: 20px 8px;
+}
+.brand-name{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.brand-name:hover,
+.menu{
+    color: #6495ed;
+}
+.menu{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
