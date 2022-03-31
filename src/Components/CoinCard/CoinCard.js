@@ -5,7 +5,7 @@ import './CoinCard.css'
 const CoinCard = ({ coin }) => {
     return (
         <div className='single-card'>
-            <Link to='/coins' className='coin-details'>
+            <Link to={`/coin-details/${coin.id}`} className='coin-details'>
 
                 <div className='coin-info p-4 d-flex justify-content-between align-items-center'>
                     <div className='coin-image'>

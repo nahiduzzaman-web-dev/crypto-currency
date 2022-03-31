@@ -2,6 +2,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+
+}
+
+.coins-m {
+    margin-bottom: 110px;
 }
 
 @media screen and (max-width:600px) {

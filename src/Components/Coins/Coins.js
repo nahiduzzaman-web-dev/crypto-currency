@@ -12,7 +12,7 @@ const Coins = () => {
     }, []);
 
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid coins-m'>
             <div className='container mt-3'>
                 <h5 className='text-center'>Available Crypto Currencies</h5>
                 <p className='text-center'>Total Coins: {coins.length}</p>
