@@ -17,7 +17,7 @@ const CoinDetails = () => {
         <div className='container-fluid'>
             <div className='container'>
                 <div className='row details-area'>
-                    <div className='col-12 col-md-6'>
+                    <div className='col-12 col-md-6 order-2 order-md-1'>
                         <div className=''>
                             <h4>General Information:</h4>
                             <div className='d-flex flex-column'>
@@ -35,11 +35,8 @@ const CoinDetails = () => {
                                 <span><strong>Block Time (m): </strong> {coin.block_time_in_minutes ? coin.block_time_in_minutes : 'Not Found'}</span>
                             </div>
                         </div>
-
-
-
                     </div>
-                    <div className='col-12 col-md-6'>
+                    <div className='col-12 col-md-6 order-1 order-md-2'>
                         <div className='d-flex justify-content-center align-items-center'>
                             <img src={coin.image?.large} alt="coinImg" />
                         </div>

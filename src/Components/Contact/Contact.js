@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css'
 import { ImLocation } from 'react-icons/im'
+import { Link, Outlet } from 'react-router-dom';
 
 const Contact = () => {
     return (
@@ -9,13 +10,17 @@ const Contact = () => {
                 <h3 className='contact-title'>Contact Us, Our Office Address Down Below</h3>
                 <h6 className='contact-title'>You can Visit Now</h6>
                 <div className='d-flex justify-content-center align-items-center my-2'>
-                    <button className='contact-btn mx-3'>
+                    <Link to='bd-address' className='contact-btn mx-3'>
                         BD Address <ImLocation />
-                    </button>
+                    </Link>
 
-                    <button className='contact-btn'>
+                    <Link to='us-address' className='contact-btn'>
                         Us Address <ImLocation />
-                    </button>
+                    </Link>
+
+                </div>
+                <div className='address'>
+                    <Outlet></Outlet>
                 </div>
             </div>
         </div>
