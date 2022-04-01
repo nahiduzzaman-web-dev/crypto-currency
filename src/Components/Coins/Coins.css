@@ -20,5 +20,9 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .coins-m {
+        margin-bottom: 300px;
+    }
+
 
 }

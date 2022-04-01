@@ -9,8 +9,8 @@ const BdAddress = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='my-5'>
-                        <h3>Bangladesh Address</h3>
+                    <div className='my-5 d-flex align-items-center justify-content-between'>
+                        <h3 className=''>Bangladesh Address</h3>
                         <div className='d-flex align-items-center justify-content-center'>
                             <div className='d-flex flex-column'>
                                 <span><SiGooglestreetview className='address-icon' /> 9/A Rupnagor, Mirpur 2.</span>

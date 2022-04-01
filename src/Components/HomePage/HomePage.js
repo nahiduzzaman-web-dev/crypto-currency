@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css'
 import { RiCoinsFill } from 'react-icons/ri'
 import { SiAzuredataexplorer } from 'react-icons/si'
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -11,7 +12,7 @@ const HomePage = () => {
                     <h1 className='text-center'>
                         Welcome To Your Crypto Currency <span className='crypto-coin'><RiCoinsFill /></span>
                     </h1>
-                    <button className='explore-btn rounded-pill'>Explore Coin <span className='explore-icon'><SiAzuredataexplorer /></span></button>
+                    <Link to='/coins' className='explore-btn rounded-pill'>Explore Coin <span className='explore-icon'><SiAzuredataexplorer /></span></Link>
                 </div>
             </div>
         </div>

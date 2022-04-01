@@ -1,0 +1,8 @@
+.not-found {
+    padding: 150px 0px;
+}
+
+.error {
+    font-size: 100px;
+    color: #ff0000;
+}

@@ -9,8 +9,10 @@ const UsAddress = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='my-5'>
-                        <h3>United States Address</h3>
+                    <div className='my-5 flex-md-row flex-column  d-flex align-items-center justify-content-between'>
+                        <div className=''>
+                            <h3>United States Address</h3>
+                        </div>
                         <div className='d-flex align-items-center justify-content-center'>
                             <div className='d-flex flex-column'>
                                 <span><SiGooglestreetview className='address-icon' /> 1515 N Main St, IN 47960</span>

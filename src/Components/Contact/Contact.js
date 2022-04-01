@@ -5,8 +5,8 @@ import { Link, Outlet } from 'react-router-dom';
 
 const Contact = () => {
     return (
-        <div className='container-fluid'>
-            <div className='container d-flex justify-content-center align-items-center flex-column'>
+        <div className='container-fluid '>
+            <div className='container mb-5 d-flex justify-content-center align-items-center flex-column'>
                 <h3 className='contact-title'>Contact Us, Our Office Address Down Below</h3>
                 <h6 className='contact-title'>You can Visit Now</h6>
                 <div className='d-flex justify-content-center align-items-center my-2'>
@@ -19,9 +19,10 @@ const Contact = () => {
                     </Link>
 
                 </div>
-                <div className='address'>
-                    <Outlet></Outlet>
-                </div>
+
+            </div>
+            <div className='address'>
+                <Outlet></Outlet>
             </div>
         </div>
     );
